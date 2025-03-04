@@ -101,7 +101,7 @@
 <script>
 import TuiGrid from 'tui-grid'
 import ButtonRenderer from '../../components/renderers/StatusRenderer.js'
-import { food } from '../../constants/index.js';
+import { food } from '../../constants/index.js'
 export default {
   name: 'VIPFoodAppStatus',
   data() {
