@@ -1,8 +1,7 @@
 <template>
   <div class="apply-page_content">
     <div class="">
-      <p class="block-title" @click="() => open = true">미결재 현황</p>
-      <!-- <EmployeeDepartmentSearch :open="true" :onClose="() => open = !open" /> -->
+      <p class="block-title" @click="() => open = true">미결재 현황</p> 
       <CustomTuiGrid 
         :data="computedGridData"
         :columns="gridColumns"
@@ -42,9 +41,7 @@
 </template>
                   
 <script> 
-import ButtonRenderer from '../../components/renderers/StatusRenderer.js'
-// import ReferenceLookup from '../../components/dialogs/ReferenceLookup.vue'
-// import EmployeeDepartmentSearch from '../../components/dialogs/EmployeeDepartmentSearch.vue'
+import ButtonRenderer from '../../components/renderers/StatusRenderer.js' 
 export default {
   name: 'OfficialVisitorRegistration',
   data(){
