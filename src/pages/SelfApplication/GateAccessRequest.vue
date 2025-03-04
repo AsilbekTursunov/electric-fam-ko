@@ -42,7 +42,7 @@
             class="center"
             :lg="{ span: 4 }" 
             :xl="{ span: 3 }"> 
-            <CustomInput v-model="applicantInfo.agentContact"  type="phone"  />
+            <CustomInput v-model="applicantInfo.agentContact"  type="phone" />
           </col-el> 
         </el-row>
         <el-row class="each-row">
@@ -161,7 +161,7 @@
           </col-el> 
           <col-el class="title center br" :span="3">근태기간<span class="required">&nbsp;*</span></col-el>
           <col-el :span="10" class="start">
-            <CustomDatePicker v-model="entryExistApplication.attendencePeriod"/>
+            <CustomDatePicker v-model="entryExistApplication.attendencePeriod" />
           </col-el> 
         </el-row> 
         <el-row class="each-row">
