@@ -42,7 +42,7 @@
             class="center"
             :lg="{ span: 4 }" 
             :xl="{ span: 3 }"> 
-            <CustomInput v-model="applicantInfo.agentContact"  type="phone" />
+            <CustomInput v-model="applicantInfo.agentContact" type="phone" />
           </col-el> 
         </el-row>
         <el-row class="each-row">
