@@ -1,0 +1,121 @@
+@mixin flex-center($width: auto) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: $width;
+}
+
+@mixin flex-column($width: auto) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: $width;
+}
+
+@mixin flex-space-between($width: auto) {
+  display: flex;
+  justify-content: space-between;
+  width: $width;
+}
+
+@mixin flex-wrap($width: auto) {
+  display: flex;
+  flex-wrap: wrap;
+  width: $width;
+}
+
+@mixin flex-align-start($width: auto) {
+  display: flex;
+  align-items: flex-start;
+  width: $width;
+}
+
+@mixin flex-column-end($width: auto) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: $width;
+}
+
+@mixin flex-justify-start($width: auto) {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: $width;
+}
+
+@mixin flex-justify-end($width: auto) {
+  display: flex;
+  justify-content: flex-end;
+  width: $width;
+}
+
+@mixin flex-justify-center($width: auto) {
+  display: flex;
+  justify-content: center;
+  width: $width;
+}
+
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == 'small' {
+    @media (max-width: 600px) {
+      @content;
+    }
+  } @else if $breakpoint == 'medium' {
+    @media (max-width: 900px) {
+      @content;
+    }
+  } @else if $breakpoint == 'large' {
+    @media (max-width: 1200px) {
+      @content;
+    }
+  } @else if $breakpoint == 'xlarge' {
+    @media (max-width: 1800px) {
+      @content;
+    }
+  }
+}
+
+@mixin respond-above($breakpoint) {
+  @if $breakpoint == 'small' {
+    @media (min-width: 601px) {
+      @content;
+    }
+  } @else if $breakpoint == 'medium' {
+    @media (min-width: 901px) {
+      @content;
+    }
+  } @else if $breakpoint == 'large' {
+    @media (min-width: 1201px) {
+      @content;
+    }
+  } @else if $breakpoint == 'xlarge' {
+    @media (min-width: 1801px) {
+      @content;
+    }
+  }
+}
+
+
+// Example usage of mixin
+.container {
+ @include flex-justify-center(100%);
+
+  @include respond-to('small') {
+    background-color: lightblue;
+  }
+
+  @include respond-to('medium') {
+    background-color: lightgreen;
+  }
+
+  @include respond-to('large') {
+    background-color: lightcoral;
+  }
+
+  @include respond-to('xlarge') {
+    background-color: lightgoldenrodyellow;
+  }
+}
+

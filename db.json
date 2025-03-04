@@ -1,0 +1,151 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "deptName": "청주2)변압기생산팀",
+            "userPassword": "admin1",
+            "userPhoto": "admin1.jpg",
+            "costClassName": "판매관리비",
+            "divisionName": "청주2공장",
+            "userJumin": "750611-1539119",
+            "regDate": "2009-12-10T08:56:17.763+00:00",
+            "userNameE": "ADMIN",
+            "lastLoginDate": "2024-12-24T05:14:35.910+00:00",
+            "userNameE2": "ADM",
+            "eMail": "revelation1@retailtech.co.kr",
+            "userEmployTypeCode": "0",
+            "costLocationName": "청주2공장",
+            "jobTitleCode": "Z1",
+            "userNumber": "admin1",
+            "uptDate": "2010-01-03T05:29:33.530+00:00",
+            "offNum": "0212345678",
+            "locationName": "청주사업장",
+            "userGrade": 0,
+            "userEmployType": "1001",
+            "maritalName": "",
+            "establishmentName": "청주사업장",
+            "userName": "관리자1",
+            "jobTitleName": "사원D",
+            "divisionCode": "CNA",
+            "accountDivision": "LER",
+            "hpNum": "01012345678",
+            "costClassCode": "1",
+            "costLocationCode": "H01",
+            "locationCode": "CH",
+            "deptCode": "KC034",
+            "maritalStatus": "",
+            "establishmentId": "102"
+        }
+    ],
+    "card": [
+        {
+            "id": 1,
+            "userName": "admin1",
+            "appReason": 1,
+            "cardOuterNumber": "XJ011326",
+            "cardId": "000272982201",
+            "regDate": "2010-01-04T06:17:50.560+00:00"
+        }
+    ],
+    "car": [
+        {
+            "id": 1,
+            "carPCount": 4,
+            "carName": "SM 5",
+            "carLocaCapacity": "",
+            "regDate": "2009-12-23T13:41:23.870+00:00",
+            "carCardId": "013034303800000002020100",
+            "carCardOuterNumber": "CJ10408",
+            "carColor": "검정",
+            "carType": 1,
+            "appReason": 1,
+            "carMeno": "",
+            "carNo": "26우7930",
+            "carPurposeDesc": "",
+            "partSystem10": "0"
+        }
+    ],
+    "comm": [
+        { 
+            "id": 1,
+            "majorCode": "VISIT_PURPOSE", 
+            "orderCommand":"ORDER_INDEX"
+        }
+    ],
+    "guestApplication": [
+        {
+            "id": 1,
+            "srno": "163543",
+            "agentUserNumber": "215095",
+            "agentDeptCode": "KB197",
+            "agentDeptName": "생기/소재연)생산기술팀",
+            "agentUserPhonenum": "",
+            "personUserNumber": "215095",
+            "personDeptCode": "KB197",
+            "personDeptName": "생기/소재연)생산기술팀",
+            "personUserPhonenum": "",
+            "location": "102",
+            "guestCompanyName": "그린텍시스템",
+            "guestCount": 1,
+            "guestCarNo": "311보8723",
+            "guestPurposeCode": 6,
+            "guestPurposeDesc": "대용량 ACB 시험대 수정 관련 방문",
+            "guestPhonenum": "",
+            "guestPlanDate": "2023-09-25",
+            "guestPlanTime": "11:00",
+            "regUserNumber": "215095",
+            "regDate": "2023-09-25T09:07:11.837",
+            "isGroup": false,
+            "guestCountry": "",
+            "appState": 1,
+            "visitWay": 2,
+            "isVip": "N"
+        }
+    ],
+    "guestApplicationGroup": [
+        {
+            "id": 1,
+            "groupGuestCount": 5,
+            "groupFoodBreakfast": 1,
+            "groupFoodLunch": 1,
+            "groupFoodDinner": 0,
+            "groupFoodLateSnack": 0,
+            "srno": 163543
+        }
+    ],
+    "guestApplicationUser": [
+        {
+            "id": 1,
+            "guestAppSrno": 163543,
+            "guestName": "홍길동",
+            "foodBreakfast": 1,
+            "foodLunch": 1,
+            "foodDinner": 2,
+            "foodLateSnack": 2,
+            "doorBoon": "1",
+            "cardOuterNumber": "",
+            "contact": "01012345678",
+            "carNumber": "123가4567",
+            "isWalk": 0
+          }
+    ],
+    "foodSaveFoodApplication" : [
+        {
+            "id": 1,
+            "location": "102",
+            "referName": "GUEST_APP",
+            "referSrno": 163543,
+            "appDeptCode": "KB197",
+            "appDeptName": "생산기술팀",
+            "appDate": "2023-09-25",
+            "foodBreakfastCount": 5,
+            "foodLunchCount": 5,
+            "foodDinnerCount": 5,
+            "foodSnackCount": 5,
+            "foodSnackMemo": "",
+            "reguserNumber": "215095"
+          }
+          
+    ]
+
+}

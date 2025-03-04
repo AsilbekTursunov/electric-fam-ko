@@ -1,0 +1,221 @@
+ 
+:root {
+  font-family: 'Pretendard-Regular', sans-serif;
+  line-height: 1.5;
+  color-scheme: light dark;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0; 
+  font-family: 'Pretendard-Regular', sans-serif;
+  background: linear-gradient(180.00deg, rgb(8, 34, 87),rgb(6, 101, 162) 100%);
+}
+
+span, p {
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar{
+  width: 4px;
+  height:4px
+}
+::-webkit-scrollbar-track{
+  width:5px;
+  background-color: #ffff;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #bbbb;
+}
+
+body div .el-popper .el-menu--vertical .el-menu-item-group.collapsed .el-menu-item{
+  color: black !important;
+  font-size: 14px;
+  line-height: 20px;
+  font-family:'Pretendard-Medium'; 
+}
+/* calendar sunday and saturday bg-colors */
+.el-picker__popper  .el-date-table .el-date-table__row td:first-child, 
+.el-picker__popper  .el-date-table .el-date-table__row td:last-child,
+.el-picker__popper  .el-date-table tr th:first-child,
+.el-picker__popper  .el-date-table tr th:last-child{
+  background-color: #ffdfd9 !important;
+} 
+ 
+.tui-grid-cell {
+  font-family: Pretendard-Medium, sans-serif !important;
+}
+
+/* body div .el-popper {  
+  opacity: 0;
+} */
+
+/* all pages global styles */
+
+/* all blocks title design for all pages */
+.block-title{
+  font-family: 'Pretendard-Bold';
+  font-size: 15px !important; 
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+/* global flex  */
+.flex {
+  display: flex !important;
+}
+.flex-column { 
+  flex-direction: column !important;
+}
+.justify-center {
+  justify-content: center !important;
+}
+.align-center {
+  align-items: center !important;
+}
+.justify-start {
+  justify-content: flex-start !important;
+}
+.space-between{
+  justify-content: space-between !important;
+}
+.self-end{
+  justify-content: flex-end !important;
+}
+.flex-1 {
+  flex: 1 !important;
+}
+.gap-5 {
+  gap: 5px !important;
+}
+.gap-10 {
+  gap: 10px !important;
+}
+.gap-15 {
+  gap: 15px !important;
+}
+.mb-5{
+  margin-bottom: 5px !important;
+}
+.mb-10{
+  margin-bottom: 10px !important;
+}
+.mb-15{
+  margin-bottom: 15px !important;
+}
+.mt-5{
+  margin-top: 5px !important;
+}
+.mt-10{
+  margin-top: 10px !important;
+}
+.m-none{
+  margin: 0 !important;
+}
+.p-2{
+  padding: 2px !important;
+}
+.p-4{
+  padding: 4px !important;
+}
+.p-10{
+  padding: 10px !important;
+}
+.p-2-4{
+  padding: 2px 4px !important;
+}
+.p-2-5{
+  padding: 2px 5px !important;
+}
+.px-2{
+  padding: 2px 0px !important;
+}
+.px-10{
+  padding: 10px 0px !important;
+}
+.py-2{ 
+  padding: 0px 2px !important;
+}
+.py-10{ 
+  padding: 0px 10px !important;
+}
+.pt-10{
+  padding-top: 10px !important;
+}
+
+/* each table content wrapper and  */
+
+.page-content-box{ 
+  margin-bottom: 20px !important; 
+}
+.main-table{ 
+  border-top: 2px solid rgb(198, 198, 201) !important; 
+  overflow: hidden !important;
+} 
+.each-row{  
+  border-bottom: 1px solid rgb(214, 214, 217) !important;
+  /* box-sizing: border-box !important; */
+  flex-wrap: nowrap !important; 
+} 
+/* required sections */
+.required{
+  color: red !important; 
+} 
+.primary{
+  color: #00A1C0 !important; 
+} 
+.text-nowrap{
+  white-space: nowrap !important;
+}
+.nowrap{
+  flex-wrap: nowrap !important;
+}
+.w-full{
+  width: 100% !important;
+}
+.disable-note{
+  color: #909090 !important;
+}
+.seats{
+  width: fit-content; 
+  padding: 2px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 500; 
+  color: black;
+  border: 1px solid #D6D9E3;
+  background-color: rgb(238, 238, 238);
+}
+.description{
+  font-size: 12px;
+  color: #606060;
+}
+
+/* fonts-sizes */
+
+.font-small{
+  font-size: 12px !important;
+}
+.font-base {
+  font-size: 13px !important;
+}
+.font-regular{
+  font-size: 14px !important;
+}
+
+/* search content box for pages */ 
+.search-content-box{
+  background-color: #F5F5F8;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+}
+
+/* el-tag style */
+ 

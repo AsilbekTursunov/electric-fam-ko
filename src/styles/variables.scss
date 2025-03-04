@@ -1,0 +1,53 @@
+// Color Variables
+$primary-color: #b5b5b5;
+$secondary-color: #707070;
+$background-color: #13111b;
+$common-color: #121212;
+$text-white: #fff;
+$input-text-color: #767575;
+$reply-text-color: #2288E7;
+$cancel-btn-color: #d9d9d9;
+$calendar-option-color: #666666;
+$calendar-title-color: #636363;
+$share-title-color:#111111;
+$table-head-color: #EEEEF3;
+
+// Font Variables
+$font-small-base: 11px;
+$font-regular-base: 12px;
+$font-base: 13px;
+$font-medium-base: 14px;
+$font-large-base: 15px;
+$font-extra-large-base: 18px;
+$font-xlarge-base: 20px;
+
+// Line-height Variables
+$line-height-small: 12px;
+$line-height-medium: 14px;
+$line-height-large: 16px;
+$line-height-xlarge: 18px;
+$line-height-extra-large: 21px;
+
+// Font-weight Variables
+$font-extra-light: 'Pretendard-ExtraLight';
+$font-light: 'Pretendard-Light';
+$font-thin: 'Pretendard-Thin';
+$font-regular: 'Pretendard-Regular';
+$font-medium: 'Pretendard-Medium';
+$font-semibold: 'Pretendard-SemiBold';
+$font-bold: 'Pretendard-Bold';
+
+
+
+// Spacing Variables
+$spacing-unit: 8px;
+$spacing-small: $spacing-unit * 0.5;
+$spacing-medium: $spacing-unit;
+$spacing-large: $spacing-unit * 2;
+
+// Breakpoints
+$breakpoint-xs: 480px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 992px;
+$breakpoint-lg: 1200px;
+$breakpoint-xl: 1440px;

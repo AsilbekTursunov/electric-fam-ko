@@ -1,0 +1,31 @@
+{
+  "search.exclude": {
+    "": true,
+    "/bower_components": false,
+    "/node_modules": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.format.enable": true,
+  "eslint.validate": [
+        "vue",
+        "javascript",
+        "javascriptreact",
+        "html",
+    ],
+    "cSpell.words": [
+      "applicationdate",
+      "approvaldept",
+      "logoclose",
+      "mgmtdept",
+      "nowrap",
+      "officialvisreg",
+      "relevantdate",
+      "vipfood",
+      "vipmealreq",
+      "vipvisitreq",
+      "visientstatus",
+      "visitrequest"
+    ],
+}
