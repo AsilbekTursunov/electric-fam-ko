@@ -15,8 +15,8 @@
       <el-option
         v-for="(item, index) in data"
         :key="index"
-        :label="item"
-        :value="item" 
+        :label="item.label ? item.label : item"
+        :value="item.value ? item.value : item" 
       />
     </el-select> 
   </div>
